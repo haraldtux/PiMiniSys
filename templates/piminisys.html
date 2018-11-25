@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+
+     <meta charset="utf-8">
+     <title>{{title0}} {{sys_name}} {{title2}}</title>
+     <meta name="description" content="^H> HucDuino : Raspberry Pi Python Flask Project">
+     <meta name="author" content="^H> HucHuino">     
+     <meta http-equiv="Refresh" content={{content}}>
+     <link rel="stylesheet" href="static/css/piminisys.css">     
+     <link rel="icon" type="image/png" href="static/images/favicon.png">
+     
+     <style>   		 
+     </style>
+		
+     <script>   
+     </script>
+   
+ </head>
+ <body>
+
+<table align="center">
+  <tr>
+    <td><img style="width: 44px; height: 52px;" src="static/images/pi_logo.png"><span class="style1a">{{title0}}</span> <span class="style1b">{{title2}}</span></td>
+   </tr> 
+   <tr>
+    <td><span class="style4b"><a href="piminisys">PiMiniSys</a>&nbsp;&nbsp;<a href="pihardware">PiHardware</a><br>&nbsp;<br>
+   </tr>        
+   <tr>    
+    <td><span class="style3a">System Time</span><br><span class="style2b">{{sys_data}} , {{sys_time}}</span></td>
+   </tr>  
+   <tr>
+    <td><span class="style3a">Model</span><br><span class="style2b">{{pi_model}}</span><br>
+   </tr>
+   <tr>
+    <td><span class="style3a">Host Name</span><br><span class="style2b">{{sys_name}}</span><br>
+   </tr>
+   <tr>
+    <td><span class="style3a">Host IP</span><br><span class="style2b">{{ipAddress}}</span><br>
+   </tr>
+   <tr>    
+    <td><span class="style3a">Uptime</span><br><span class="style2b">{{upTime[0]}} Days&nbsp;&nbsp;{{upTime[1]}} Hours&nbsp;&nbsp;{{upTime[2]}} Minutes</span></td>
+   </tr>
+   <tr>    
+    <td><span class="style3a">CPU Percent</span><br><span class="style2b">{{CPUp}} %</span></td>
+   </tr>          
+   <tr>    
+    <td><span class="style3a">CPU Temperature</span><br><span class="style2b">{{cpuTemp}} &#176; C</span></td>
+   </tr>
+<!--   
+   <tr>    
+    <td><span class="style3a">Core Frequency</span><br><span class="style2b">{{cpu_core_frequency}} Mhz</span></td>
+   </tr>
+-->   
+   <tr>
+    <td><span class="style3a">Memory Usage</span><br><span class="style4">Size&nbsp;&nbsp;&nbsp;&nbsp;Used&nbsp;&nbsp;&nbsp;&nbsp;Avail&nbsp;&nbsp;&nbsp;&nbsp;Use%</span>
+        <br>
+        <span class="style2b">{{memoryUsageInfo[1]}}MB&nbsp;&nbsp;&nbsp;{{memoryUsageInfo[2]}}MB&nbsp;&nbsp;&nbsp;{{memoryUsageInfo[1]}}MB&nbsp;&nbsp;&nbsp;{{memoryUsePercentage}}%</span></td>
+   </tr>
+    <td><span class="style3a">Disk Usage</span><br><span class="style4"><!--{{diskUsageHeader[0]}}&nbsp;&nbsp;&nbsp;&nbsp;-->{{diskUsageHeader[1]}}&nbsp;&nbsp;&nbsp;&nbsp;{{diskUsageHeader[2]}}&nbsp;&nbsp;&nbsp;&nbsp;{{diskUsageHeader[3]}}&nbsp;&nbsp;&nbsp;&nbsp;{{diskUsageHeader[4]}}</span>
+        <br>
+        <span class="style2b"><!--{{diskUsageInfo[0]}}&nbsp;&nbsp;&nbsp;-->{{diskUsageInfo[1]}}&nbsp;&nbsp;&nbsp;{{diskUsageInfo[2]}}&nbsp;&nbsp;&nbsp;{{diskUsageInfo[3]}}&nbsp;&nbsp;&nbsp;{{diskUsageInfo[4]}}</span></td>
+   </tr>
+   <tr>    
+    <td>&nbsp;</td>
+   </tr>
+<!--
+   <tr>    
+    <td><center><img style="width: 200px; height: 62px;" src="static/images/Powered-by-Raspberry-Pi-3.png"></center></td>
+   </tr>
+-->     
+   <tr>    
+    <td><center><span class="style5">{{title0}} {{title1}} : Raspberry Pi Python Flask Project {{sys_year}}</span></center></td>
+   </tr>      
+</table>
+
+ </body>
+ </html>
