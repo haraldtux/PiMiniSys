@@ -1,5 +1,5 @@
 # PiMiniSys
-Raspberry Pi mini system and hardware on Python Flask dashboard
+Raspberry Pi mini system and hardware info on Python Flask dashboard
 
 * tested on Raspberry Pi Model B, Zero W, 3 Model A Plus and 3 Model B Plus. 
 
