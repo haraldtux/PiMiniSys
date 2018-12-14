@@ -21,7 +21,7 @@ Raspberry Pi mini system and hardware info on Python Flask dashboard
   `sudo python piminisys.py`
   
 ## Accessing the Dashboard: ##
-* Since the servlet is running locally, you can access the dashboard by navigating to **http://[you ip]:5000** through your web browser,
+* Since the servlet is running locally, you can access the dashboard by navigating to **http://[you ip]:5000** through your web browser.
 
 ## useful links: ##
 *  http://flask.pocoo.org/
